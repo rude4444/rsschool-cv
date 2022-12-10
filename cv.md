@@ -3,8 +3,8 @@
 ## Rodion Pavlov
 
 ### Contacts
-Telegram: @lebanonhanover 
-GitHub: rude4444
+- Telegram: @lebanonhanover 
+- GitHub: rude4444
 
 ### About Me
 I'm 28yrs old guy from the coldest city in the world. Wanna get some programming skills.
@@ -21,3 +21,6 @@ I graduated St. Petersburg Eletrotechnical University "LETI": Bachelor degree  i
 ### Hobbies
 * Movies
 * Chess
+
+### English 
+I don't actually know. Gonna to pass some tests to identify my acknowledgments. 
