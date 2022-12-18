@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  padding: 0 10px;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(214, 119, 119);
+}
+.nav-list {
+  width: 50%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.nav-link:hover {
+  background-size: 100% 2px;
+}
+
+
+.main-section {
+  min-height: 280px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgb(214, 119, 119)
+}
+
+.main-section-logo {
+  object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
+}
+
+.main-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-container{
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400;
+  font-size: 18px;
+  background-color: rgb(214, 119, 119);
+}
+
+.footer-gh{
+  display: flex;
+  align-items: center;
+}
+
+.footer-gh-link{
+  text-decoration: none;
+  color: #000000;
+}
+.section {
+  padding: 10px;
+  min-height: 200px;
+  width: 50%;
+}
+
+.section-title {
+  margin-bottom: 10px;
+}
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(../assets/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+p, .section-list, .section-text{
+  font-size: 16px;
+  font-weight: 500;
+}
+h1,h2:hover {
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    animation: moveGradient 4s alternate infinite;
+  }
+
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
